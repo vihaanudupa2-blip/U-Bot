@@ -1,0 +1,6 @@
+{
+  "name": "U-bot",
+  "description": "An interactive, beautiful, and fully customizable landing page and web portal for a Discord server with dynamic widgets, rules, events list, staff showcase, and mock live chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
