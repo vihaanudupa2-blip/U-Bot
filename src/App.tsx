@@ -261,7 +261,7 @@ export default function App() {
         </main>
 
         <footer className="bg-[#0A0B0E] border-t border-white/5 py-6 px-6 text-center text-xs text-zinc-500 font-mono">
-          &copy; 2026 {botName} &bull; All Rights Reserved.
+          &copy; 2026 {botName} &bull; All Rights Reserved. &bull; Developed by Vihaan Kumar Udupa
         </footer>
       </div>
     );
@@ -297,7 +297,9 @@ export default function App() {
             <span className="font-extrabold text-sm md:text-base tracking-wider text-white uppercase select-none">
               {botName}
             </span>
-            <span className="text-[9px] text-zinc-500 font-mono block tracking-tight">CONTROL CENTER</span>
+            <span className="text-[9px] text-zinc-500 font-mono block tracking-tight">
+              CONTROL CENTER &bull; BY VIHAAN KUMAR UDUPA
+            </span>
           </div>
         </div>
 
@@ -758,6 +760,11 @@ export default function App() {
             <span className="text-2xl font-extralight text-zinc-300 block tracking-tight font-light">{botName}</span>
             <span className="text-[9px] uppercase tracking-wider text-zinc-500 font-bold">RESIDENT ASSISTANT</span>
           </div>
+
+          <div className="flex flex-col border-l border-white/5 pl-6 md:pl-10">
+            <span className="text-lg font-bold text-teal-400 block tracking-tight">Vihaan Kumar Udupa</span>
+            <span className="text-[9px] uppercase tracking-wider text-zinc-500 font-bold">CORE DEVELOPER</span>
+          </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-4 text-[10px] text-zinc-500 font-mono">
@@ -796,6 +803,10 @@ export default function App() {
             <span>Live Privacy (Replit)</span>
             <ExternalLink className="w-2.5 h-2.5" />
           </a>
+          <span className="text-zinc-800 hidden sm:inline">|</span>
+          <div className="hidden sm:inline text-zinc-500 font-medium">
+            DEVELOPED BY: <span className="text-teal-400 font-bold">VIHAAN KUMAR UDUPA</span>
+          </div>
           <span className="text-zinc-800 hidden sm:inline">|</span>
           <div className="hidden sm:inline text-zinc-600">
             SYSTEM_CONNECTION: <code className="text-zinc-500">U-bot_Core_Established_0xF8</code>
