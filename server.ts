@@ -234,5 +234,3 @@ async function run() {
     console.log(`Port 3000 fullstack app running!`);
   });
 }
-
-
