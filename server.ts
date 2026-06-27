@@ -235,6 +235,4 @@ async function run() {
   });
 }
 
-run().catch(err => {
-  console.error("Failed to start Custom Fullstack Express/Vite server:", err);
-});
+
