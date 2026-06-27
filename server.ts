@@ -238,11 +238,3 @@ async function run() {
 run().catch(err => {
   console.error("Failed to start Custom Fullstack Express/Vite server:", err);
 });
-client.on("disconnect", () => {
-  console.log("Bot disconnected");
-});
-
-client.on("error", console.error);
-
-process.on("unhandledRejection", console.error);
-process.on("uncaughtException", console.error);
